@@ -1,0 +1,21 @@
+h1 {
+    float:left;
+    color:#ffffff;
+}
+
+body{
+    background-color: #EBEBEB;
+    
+}
+
+a{
+    color: #ffffff !important;
+}
+
+.social-icons a {
+    font-size: 24px;
+}
+
+.social-icons a:hover {
+    color: #ffffff;
+}

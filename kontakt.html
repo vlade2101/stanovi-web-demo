@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <title>Kontakt</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/kontakt.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<header>
+    <nav class="navbar navbar-expand-sm bg-info navbar-dark">
+      <div class="container">
+        <h1 onclick="window.location.href='index.html';">Apartmani Apex i Sweet</h1>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Početna</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="stanovi.html">Apartmani</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Okarlovcu.html">O Karlovcu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="kontakt.html">Kontakt</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <body>
+    <main>
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <div class="pop-updiv">
+          <h2 class="moji-naslovi">Kontakt podaci</h2>
+          <ul class="list-unstyled">
+            <li><i class="fas fa-map-marker-alt"></i> <strong>Adresa:</strong> Jurja Haulika 20b, 47000, Karlovac</li>
+            <li><i class="fas fa-phone"></i> <strong>Telefon:</strong> +385 92 323 8310</li>
+            <li><i class="fas fa-envelope"></i> <strong>Email:</strong> Apexisweet@gmail.com</li>
+            <li><i class="fas fa-clock"></i> <strong>Radno vrijeme:</strong> Pon-Pet 09:00 - 17:00</li>
+          </ul>
+        </div>
+      </div>  
+        <div class="col-md-6 mb-5">
+          <form class="pop-up" action="https://formspree.io/f/xpwarvye" method="POST">
+            <h2 class="moji-naslovi">Pošaljite poruku</h2>
+            <div class="form-group">
+              <label for="name">Ime:</label>
+              <input type="text" class="form-control" id="name" name="name" placeholder="Unesite vaše ime" maxlength="30" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email adresa:</label>
+              <input type="email" class="form-control" id="email" name="email" placeholder="Unesite vašu email adresu" maxlength="40" required>
+            </div>
+            <div class="form-group">
+              <label for="subject">Predmet:</label>
+              <input type="text" class="form-control" id="subject" name="subject" placeholder="Unesite predmet poruke" maxlength="50" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Poruka:</label>
+              <textarea class="form-control" id="message" name="message" rows="5" placeholder="Unesite vašu poruku" maxlength="200" required></textarea>
+            </div>
+            <button type="submit" class="bg-info btn btn-primary w-100">Pošalji</button>
+          </form>
+        </div>
+      </div>
+      </div>
+    </main>
+    
+<footer class="bg-info text-white text-center py-3 fixed-bottom">
+  <div class="container">
+      <div class="social-icons">
+          <a href="https://www.instagram.com"><i class="fab fa-instagram mx-2"></i></a>
+          <a href="https://www.facebook.com"><i class="fab fa-facebook-f mx-2"></i></a>
+          <a href="https://www.youtube.com"><i class="fab fa-youtube mx-2"></i></a>
+      </div>
+      <p class="mb-0">© 2024 Apartmani Apex i Sweet</p>
+  </div>
+</footer>  
+</body>
+</html>

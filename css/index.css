@@ -1,0 +1,68 @@
+h1 {
+    cursor: pointer;
+    float:left;
+    color:#ffffff;
+}
+
+body{
+    background-color: #EBEBEB;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    color: #ffffff !important;
+}
+.social-icons a {
+    font-size: 24px;
+}
+
+.social-icons a:hover {
+    color: #ffffff;
+}
+
+.carousel-caption {
+    top: 35%;
+    color: white;
+    font-size: 4vw; 
+    font-family: 'Poppins', sans-serif;
+}
+
+.sadrzaj {
+    text-align: center;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.sadrzaj h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.sadrzaj p {
+    text-align: left;
+    font-size: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.slike{
+    filter: grayscale(50%) brightness(0.5);
+}
+
+@media (max-width: 768px) {
+    .sadrzaj p{
+        text-align: left;
+        font-size: 18px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+@media (max-width: 576px) {
+    .sadrzaj p{
+        text-align: left;
+        font-size: 14px;
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+}
